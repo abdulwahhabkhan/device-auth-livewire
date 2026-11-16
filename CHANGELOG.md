@@ -3,6 +3,11 @@
 All notable changes to `abdulwahhabkhan/device-auth-livewire` are documented here.
 This project follows [Semantic Versioning](https://semver.org).
 
+## 0.2.1 - 2026-11-16
+
+### Documentation
+- README describes device keys as passkeys (WebAuthn) instead of comparing them to SSH keys.
+
 ## 0.2.0 - 2026-11-16
 
 ### Changed (breaking)
