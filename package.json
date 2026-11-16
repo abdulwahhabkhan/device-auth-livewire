@@ -1,0 +1,13 @@
+{
+    "name": "device-auth-livewire",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "esbuild resources/ts/index.ts --bundle --minify --format=iife --target=es2020 --legal-comments=none --outfile=dist/device-auth.js",
+        "types": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "esbuild": "^0.25.0",
+        "typescript": "^5.6.0"
+    }
+}

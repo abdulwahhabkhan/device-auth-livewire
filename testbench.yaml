@@ -1,0 +1,4 @@
+providers:
+  - Livewire\LivewireServiceProvider
+  - AbdulWahhabKhan\DeviceAuth\DeviceAuthServiceProvider
+  - AbdulWahhabKhan\DeviceAuth\Livewire\DeviceAuthLivewireServiceProvider
