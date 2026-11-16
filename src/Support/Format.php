@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Date;
  */
 final class Format
 {
-    private const DEVICE_TYPES = [
+    private const array DEVICE_TYPES = [
         'desktop' => 'Computer',
         'smartphone' => 'Phone',
         'phablet' => 'Phone',

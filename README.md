@@ -15,7 +15,7 @@ Pages use plain Tailwind utilities (neutral palette with `dark:` variants) and l
 
 ## Requirements
 
-PHP 8.2+, Laravel 11, 12 or 13, Livewire 3.6+ or 4, Tailwind CSS. WebAuthn needs **https** (or `localhost`).
+PHP 8.3+, Laravel 13, Livewire 3.6+ or 4, Tailwind CSS. WebAuthn needs **https** (or `localhost`).
 
 ## Installation
 
@@ -109,6 +109,15 @@ composer test        # pint --test, rector --dry-run, phpstan (level 7), phpunit
 npm install
 npm run types        # tsc --noEmit (strict)
 npm run build        # rebuilds dist/device-auth.js, commit the result
+```
+
+### Developing against a local core
+
+The package installs `abdulwahhabkhan/device-auth` from Packagist. To work on both side by side, point Composer at your checkout (don't commit this):
+
+```bash
+composer config repositories.core '{"type": "path", "url": "../laravel-device-auth", "options": {"versions": {"abdulwahhabkhan/device-auth": "0.2.0"}}}'
+composer update abdulwahhabkhan/device-auth
 ```
 
 ## License
