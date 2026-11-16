@@ -1,6 +1,6 @@
 # abdulwahhabkhan/device-auth-livewire
 
-Livewire + Alpine screens for [`abdulwahhabkhan/device-auth`](https://github.com/abdulwahhabkhan/device-auth): only approved devices can use your Laravel app, like SSH keys for the browser.
+Livewire + Alpine screens for [`abdulwahhabkhan/device-auth`](https://github.com/abdulwahhabkhan/device-auth): only approved devices can use your Laravel app, each proving itself with a passkey (WebAuthn) stored on the device.
 
 The core package holds all the logic (actions, routes, middleware, WebAuthn). This package only draws the pages:
 
